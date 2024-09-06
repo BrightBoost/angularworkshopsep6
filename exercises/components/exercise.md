@@ -24,10 +24,11 @@
      <h1>Welcome to My Website</h1>
    </header>
    ```
-6. Open `app.component.html` and use the selectors from your components to arrange them appropriately. Your file might look like this:
+6. Open `app.component.ts` and add the components to the import array.
+7. Open `app.component.html` and use the selectors from your components to arrange them appropriately. Your file might look like this:
    ```html
    <app-header></app-header>
    <app-main-content></app-main-content>
    <app-footer></app-footer>
    ```
-7. Run your application with `ng serve --open` and observe the structure of your basic webpage with a header, main content, and footer.
+8. Run your application with `ng serve` and observe the structure of your basic webpage with a header, main content, and footer.
