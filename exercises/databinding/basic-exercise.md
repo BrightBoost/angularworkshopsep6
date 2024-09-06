@@ -1,0 +1,6 @@
+- Create a new component "interactiveComponent"
+- Give the component a property title
+- HTML: Create a title, an input field, and a button, and a paragraph
+- Fill the title with the use of string interpolation {{ title }}
+- Create the input field with a default value equal to the title use []
+- Give the button an event with event binding syntax (), toggle the visibility of the paragraph and include the variable that's used for the title
