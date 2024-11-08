@@ -10,11 +10,10 @@
    - This will create a new Angular project with a default "Hello World" template.
 
 2. **Modify HTML:**
-   - In the `app` folder, locate and open the `app.component.html` file.
+   - Go to the `main.ts` file.
    - You will see a default template. Change the content within the `<h1>` tags to "Welcome to Our Angular App!".
 
 3. **Modify CSS:**
-   - Now, open the `app.component.css` file.
    - Add a new style for the `<h1>` tag to change its color. For example:
      ```css
      h1 {
@@ -23,9 +22,9 @@
      ```
 
 4. **Modify a TypeScript Variable:**
-   - Open the `app.component.ts` file.
+   - Open the `main.ts` file.
    - You'll see a `title` variable within the `AppComponent` class. Change its value from 'my-app' to 'My First Angular App'.
-   - Go back to `app.component.html` and replace "Welcome to Our Angular App!" with `{{ title }}` within the `<h1>` tags. This change will display the value of the `title` variable.
+   - Go back to `html` and replace "Welcome to Our Angular App!" with `{{ title }}` within the `<h1>` tags. This change will display the value of the `title` variable.
 
 5. **Preview Your Application:**
    - The application preview on the right should automatically update with every change you make.
